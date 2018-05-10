@@ -51,19 +51,23 @@ public class Flames extends javax.swing.JFrame {
         jTextField1.setBackground(new java.awt.Color(112, 89, 162));
         jTextField1.setFont(new java.awt.Font("Freestyle Script", 0, 36)); // NOI18N
         jTextField1.setForeground(new java.awt.Color(255, 255, 255));
+        jTextField1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField1.setBorder(null);
+        jTextField1.setPreferredSize(new java.awt.Dimension(0, 69));
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField1ActionPerformed(evt);
             }
         });
-        jPanel1.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 70, 243, 30));
+        jPanel1.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(53, 70, 240, 30));
 
         jTextField2.setBackground(new java.awt.Color(112, 89, 162));
         jTextField2.setFont(new java.awt.Font("Freestyle Script", 0, 36)); // NOI18N
         jTextField2.setForeground(new java.awt.Color(255, 255, 255));
+        jTextField2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField2.setBorder(null);
-        jPanel1.add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 150, 243, 30));
+        jTextField2.setPreferredSize(new java.awt.Dimension(0, 69));
+        jPanel1.add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(53, 150, 240, 30));
 
         jLabel2.setFont(new java.awt.Font("Freestyle Script", 0, 24)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
